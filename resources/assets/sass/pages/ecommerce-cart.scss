@@ -1,0 +1,130 @@
+// Core variables and mixins
+@import "../bootstrap/functions";
+@import "../bootstrap/mixins";
+
+// Core variables and mixins overrides
+@import "../core/variables/variables";
+@import "../core/variables/components-variables";
+
+.ecommerce-cart{
+	.content{
+		.content-wrapper{
+			.content-header{
+				background: url("../../images/backgrounds/laptop.jpg") no-repeat scroll 0% 40%;
+				background-size: cover;
+				margin: 0 0 5rem;
+				.content-header-title{
+					border-right:none;
+				}
+				.breadcrumbs-top{
+					display: flex !important;
+				}
+			}
+		}
+	}
+}
+.shopping-cart{
+	.nav.nav-tabs {
+		border: none;
+		margin-bottom: 2rem;
+		li.nav-item {
+			background-color: #fff;
+			margin: 0 1rem;
+			border-radius: 3px;
+			font-size: 1.25rem;
+			.nav-link {
+				padding: 0.75rem;
+				&.active{
+					border-radius: 3px;
+					background-color: $info;
+					border: none;
+					color: $white;
+				}
+			}
+			&:first-child{
+				margin-left: 0;
+			}
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+	.product-img{
+		background: $content-bg;
+		height: 100px;
+		margin-bottom: 1rem;
+		width: 130px;
+		position: relative;
+		img {
+			height: 80px;
+			margin: 0 auto;
+		}
+	}
+	.table{
+		tr{
+			td {
+				vertical-align: middle;
+				.product-title{
+					font-size: 1.25rem;
+				}
+			}
+		}
+	}
+	.bootstrap-touchspin{
+		.input-group-prepend,
+		.input-group-append{
+			.btn{
+				background: $content-bg;
+			}
+		}
+		.form-control{
+			border-color: $content-bg;
+		}
+	}
+	.product-action{
+		a{
+			font-size: 1.25rem;
+			i{
+				font-size: 1.25rem;
+			}
+		}
+	}
+	.price-detail{
+		margin-bottom: 0.5rem;
+	}
+	.total-savings{
+		color: darken($success, 15%);
+		font-size: 0.95rem;
+		margin-top: 1rem;
+		font-weight: 600;
+	}
+}
+
+.order-details{
+	.order-title {
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+}
+
+@media (min-width: 1500px) {
+	.shopping-cart{
+		.bootstrap-touchspin{
+			width: 40%;
+		}
+	}
+}
+@media (min-width: 1360px) and (max-width: 1500px) {
+	.shopping-cart{
+		.bootstrap-touchspin{
+			width: 60%;
+		}
+	}
+}
+@media (min-width: 1200px) and (max-width: 1359px) {
+	.shopping-cart{
+		.bootstrap-touchspin{
+			width: 80%;
+		}
+	}
+}

@@ -1,0 +1,48 @@
+@import "../bootstrap/functions";
+@import "../bootstrap/mixins";
+@import "../bootstrap-extended/mixins";
+
+// Core variables and mixins overrides
+@import "../core/variables/variables";
+@import "../core/variables/components-variables";
+
+// Doctor's Profile
+
+
+#doctor-profile {
+    .clndr-controls {
+        background: white !important;
+        color: black;
+    }
+
+    .days-of-the-week {
+        background: #1E9FF2;
+    }
+
+    .day-number {
+        border-color: #1E9FF2;
+    }
+
+    .today {
+        background: #1E9FF2;
+    }
+
+    .event-listing-title {
+        background: #28D094;
+    }
+}
+
+/* Add Following Style To make Calendar Responsive in Small Screens */
+
+@media(max-width:600px) {
+    .clndr {
+        .clndr-grid {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        .event-listing {
+            width: 100%;
+        }
+    }
+}

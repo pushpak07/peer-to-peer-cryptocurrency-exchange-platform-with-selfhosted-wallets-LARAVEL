@@ -1,0 +1,41 @@
+#patient-profile {
+    .patient-img {
+        width: 75px;
+    }
+
+    .doctor-img {
+        width: 35px;
+    }
+
+    .patient-name {
+        text-align: center;
+    }
+
+    .patient-details-row {
+        position: absolute;
+    }
+
+    .patient-info-heading {
+        font-weight: 900;
+        display: inline-block;
+        width: 100px;
+    }
+
+    .diesase-badge {
+        margin-right: 5px;
+    }    
+}
+.patient-wrapper{
+    &.table {
+             td{
+                padding: 0.75rem 0.8rem;                
+            }
+       }
+    .action{
+        i{
+            &.text-success{
+                margin-right: 0.3rem;
+                }
+            }
+        }
+}

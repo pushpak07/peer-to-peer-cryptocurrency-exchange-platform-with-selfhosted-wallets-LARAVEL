@@ -1,0 +1,61 @@
+
+// Variables
+// ------------------------------
+
+// Core variables and mixins
+@import "bootstrap/functions";
+@import "bootstrap/mixins";
+@import "bootstrap-extended/mixins";
+
+// Core variables and mixins overrides
+@import "core/variables/variables";
+@import "core/variables/components-variables";
+@import "core/mixins/transitions";
+
+// Perfect Scrollbar
+
+// Core
+// ------------------------------
+// layouts
+@import "core/layouts/content";
+@import "core/layouts/sidebar";
+@import "core/layouts/horizontal";
+@import "core/layouts/footer";
+// menu
+@import "core/menu/navigation";
+
+// Components
+// ------------------------------
+@import "components/helper";
+@import "components/avatar";
+@import "components/search";
+@import "components/chart";
+@import "components/callout";
+@import "components/bootstrap-social";
+@import "components/content-header-image";
+@import "components/demo"; // Plugins demo, remove in real project
+@import "components/customizer"; // Customizer demo, remove in real project
+@import "components/admin";
+
+
+// Plugins
+// ------------------------------
+@import "plugins/extensions/preloader";
+@import "plugins/animate/animate";
+
+@import "plugins/menu/perfect-scrollbar/ps-custom";
+@import "plugins/ui/breakpoints";
+@import "plugins/editors/editors";
+
+// TODO:A: Set this scss page specific
+@import "plugins/forms/tags/basic-input";
+@import "plugins/forms/select2/select2";
+@import "plugins/tables/datatables";
+@import "plugins/pagination/pagination";
+
+@import "plugins/forms/validation/form-validation";
+@import "plugins/forms/wizard";
+
+// Global Pages
+// ------------------------------
+@import "pages/project";

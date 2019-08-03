@@ -1,0 +1,112 @@
+
+// Core variables and mixins overrides
+@import "../bootstrap/functions";
+@import "../core/variables/variables";
+@import "../core/variables/components-variables";
+
+.profile-card-with-stats {
+    .btn-float {
+        padding: 8px 14px 4px 14px;
+    }
+}
+
+.profile-card-with-cover {
+    .card-profile-image {
+        position: absolute;
+        top: 130px;
+        width: 100%;
+        text-align: center;
+        img.img-border {
+            border: 5px solid #fff;
+        }
+    }
+    .profile-card-with-cover-content {
+        padding-top: 4rem;
+    }
+}
+
+#user-profile {
+    .profile-with-cover {
+        .profile-cover-details {
+            position: absolute;
+            margin-top: 110px;
+
+            .profile-image {
+                img.img-border {
+                    border: 5px solid #fff;
+                }
+            }
+
+            .profile-image[class*="avatar-"] i {
+                position: absolute;
+                right: 4px;
+                bottom: -30px;
+                width: 20px;
+                height: 20px;
+                border: 2px solid white;
+                border-radius: 100%;
+            }
+
+            .avatar-online i {
+                background-color: #28D094;
+            }
+
+            .avatar-away i {
+                background-color: #FF9149;
+            }
+
+            .avatar-off i {
+                background-color: #BABFC7;
+            }
+
+            .card-title {
+                color: $white;
+                text-shadow: 1px 1px 4px $gray-800;
+            }
+        }
+
+        .nav-item {
+            &.active{
+                a {
+                    padding-right: 5px;
+                    padding-left: 5px;
+                    margin: 1px 0 0 0;
+                    background: #e7e7e7;
+                    border-radius: 5px;
+                }
+            }
+            &:not(.active){
+                a:hover {
+                    padding-right: 5px;
+                    padding-left: 5px;
+                    margin: 1px 0 0 0;
+                    background: #f6f6f6;
+                    border-radius: 5px;
+                    transition: all 0.5s;
+                }
+            }
+        }
+    }
+
+    .media {
+        &.profile-cover-details {
+            .media-left {
+                z-index: 9;
+            }
+        }
+    }
+
+    .navbar-profile {
+        margin-left: 130px;
+    }
+}
+
+
+// Page Dependencies
+@import "~cropperjs/dist/cropper.css";
+@import "~dropzone/dist/dropzone.css";
+@import "~intl-tel-input/src/css/intlTelInput";
+
+// Custom Page Styles
+@import "../plugins/forms/intlTelInput/intlTelInput";
+@import "../plugins/file-uploaders/dropzone";

@@ -1,0 +1,86 @@
+// Core variables and mixins
+@import "../../bootstrap/functions";
+@import "../../bootstrap/mixins";
+
+// Core variables and mixins overrides
+@import "../../core/variables/variables";
+@import "../../core/variables/components-variables";
+
+.completed {
+	.media-body{
+		text-decoration: line-through;
+	}
+}
+.todo{
+	.content-wrapper{
+		padding: 0 !important;
+	}
+
+	// Basic Search
+	.search{
+		position: relative;
+		padding: 1.5rem;
+		.basic-search{
+			width: 100%;
+			border: 1px solid $list-group-border-color;
+			padding: 1.25rem;
+			border-radius: 4px;
+		}
+		i{
+			position: absolute;
+			top: 50%;
+			right: 3rem;
+			margin-top: -0.5rem;
+		}
+	}
+	.no-items{
+		display:none;
+	}
+	// Todo Form
+	.todo-form{
+		position: relative;
+		overflow: hidden;
+		.form-control-position{
+			&.control-position-right {
+				right: 18px;
+				top: 2px;
+				cursor: pointer;
+			}
+		}
+	}
+
+	// Display Todo List
+	.todo-title{
+		font-size: 1.2rem;
+		margin-bottom: 0.5rem;
+		font-weight: 500;
+		line-height: 1;
+	}
+	.todo-desc{
+		color:$gray-200;
+		font-size: 0.9rem;
+		letter-spacing: 0.35px;
+	}
+
+	// To Drag todo list item
+	.dragme {
+		position: relative;
+		left: -0.5rem;
+		top: 0.15rem;
+		cursor: move;
+		color:$gray-200;
+		margin-right: 0.5rem;
+	}
+	.todo-list{
+		max-height: 1200px;
+		width: 100%;
+		position: relative;
+		&.ps-container {
+			> .ps-scrollbar-y-rail {
+				> .ps-scrollbar-y{
+					width: 5px;
+				}
+			}
+		}
+	}
+}

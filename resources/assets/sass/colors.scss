@@ -1,0 +1,13 @@
+
+// Core
+// ------------------------------
+
+// Import variables and mixins
+@import "bootstrap/mixins/gradients";
+@import "core/mixins/hex2rgb";
+
+// Color system, always load last
+// ------------------------------
+
+@import "core/colors/palette";
+

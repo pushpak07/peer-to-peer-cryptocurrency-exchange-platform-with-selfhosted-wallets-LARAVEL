@@ -1,0 +1,33 @@
+// Bootstrap
+@import "bootstrap.scss";
+
+// Perfect Scroll
+@import "~perfect-scrollbar/css/perfect-scrollbar.css";
+
+// Raty
+@import "~jquery-raty-js/lib/jquery.raty.css";
+
+// Ladda
+@import "~ladda/css/ladda";
+
+// Select2
+@import "~select2/src/scss/core";
+
+// Datatable
+@import "~datatables.net-bs4/css/dataTables.bootstrap4.min.css";
+@import "~datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css";
+
+// Toastr
+@import "~toastr/toastr";
+
+// Libraries
+@import "~cryptocoins-icons/webfont/cryptocoins.css";
+
+// Font icons
+@import url("../fonts/feather/style.min.css");
+@import url("../fonts/line-awesome/css/line-awesome.min.css");
+@import url("../fonts/simple-line-icons/style.css");
+@import "~flag-icon-css/css/flag-icon.min.css";
+
+// Extensions
+@import url("extensions/spinner.css");

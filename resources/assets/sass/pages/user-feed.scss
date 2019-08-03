@@ -1,0 +1,28 @@
+
+.profile-image{
+    margin-top: -130px;
+}
+.nav-margin{
+    margin-top: -75px;
+    margin-bottom: 35px;
+}
+.width-30{
+    width: 30px;
+}
+.mrb-5px{
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+// Media Query
+
+@media only screen and (max-width: 998px) {
+    .navbar-expand-lg{
+    	display: none;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .profile-image{
+    	width: 100px !important;
+    }
+}

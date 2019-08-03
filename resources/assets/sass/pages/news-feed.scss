@@ -1,0 +1,140 @@
+$img-overlay-bg : rgba(0, 0, 0, 0.5);
+
+@mixin text-item {
+    color: white !important;
+}
+
+@mixin text-time {
+    color: white !important;
+    padding: 0.2rem !important;
+}
+
+#news-feed {
+
+    .news-feed-btn {
+        padding: 2px;
+    }
+
+    .news-feed-badge-nature {
+        top: 5px;
+    }
+
+    .news-feed-badge-real-estate {
+        top: 5px;
+        left: 5px;
+    }
+
+    .news-feed-badge-radio {
+        top: 5px;
+    }
+
+    .news-feed-badge-trip {
+        top: 5px;
+        left: 5px;
+    }
+
+    .news-feed-badge-travel {
+        top: 5px;
+        left: 5px;
+    }
+
+    .list-group {
+        .news-feed-item-text-time {
+            padding: 0.2rem !important;
+        }
+
+        .news-feed-item-1:hover {
+           // background: linear-gradient($img-overlay-bg, $img-overlay-bg), url('../../../app-assets/images/gallery/36.png') center center no-repeat;
+            background-size: cover;
+
+            & .news-feed-item-text {
+                @include text-item();
+            }
+
+            & .news-feed-item-text-time {
+                @include text-time();
+            }
+
+        }
+
+        .news-feed-item-2:hover {
+            //background: linear-gradient($img-overlay-bg, $img-overlay-bg), url('../../../app-assets/images/gallery/18.jpg') center center no-repeat;
+            background-size: cover;
+
+            & .news-feed-item-text {
+                @include text-item();
+            }
+
+            & .news-feed-item-text-time {
+                @include text-time();
+            }
+        }
+
+        .news-feed-item-3:hover {
+            //background: linear-gradient($img-overlay-bg, $img-overlay-bg), url('../../../app-assets/images/gallery/18.jpg') center center no-repeat;
+            background-size: cover;
+
+            & .news-feed-item-text {
+                @include text-item();
+            }
+
+            & .news-feed-item-text-time {
+                @include text-time();
+            }
+        }
+
+        .news-feed-item-4:hover {
+            //background: linear-gradient($img-overlay-bg, $img-overlay-bg), url('../../../app-assets/images/gallery/20.jpg') center center no-repeat;
+            background-size: cover;
+
+            & .news-feed-item-text {
+                @include text-item();
+            }
+
+            & .news-feed-item-text-time {
+                @include text-time();
+            }
+        }
+
+        .news-feed-item-5:hover {
+            //background: linear-gradient($img-overlay-bg, $img-overlay-bg), url('../../../app-assets/images/gallery/20.jpg') center center no-repeat;
+            background-size: cover;
+
+            & .news-feed-item-text {
+                @include text-item();
+            }
+
+            & .news-feed-item-text-time {
+                @include text-time();
+            }
+        }
+
+    }
+
+    .news-feed-food-card-bg {
+        //background: url('../../../app-assets/images/gallery/6.jpg') center center no-repeat;
+        background-size: cover;
+        border-radius: .3rem
+    }
+
+    .news-feed-food-card2-bg {
+        //background: url('../../../app-assets/images/gallery/3.jpg') center center no-repeat;
+        background-size: cover;
+        border-radius: .3rem
+    }
+
+    .news-feed-food-card3-bg {
+        //background: url('../../../app-assets/images/gallery/6.jpg') center center no-repeat;
+        background-size: cover;
+        border-radius: .3rem
+    }
+
+    .tech-card-bg:hover {
+        //background: linear-gradient($img-overlay-bg, $img-overlay-bg), url('../../../app-assets/images/gallery/34.png') center center no-repeat;
+        background-size: cover;
+
+        & .tech-card-text {
+            @include text-item();
+        }
+    }
+}

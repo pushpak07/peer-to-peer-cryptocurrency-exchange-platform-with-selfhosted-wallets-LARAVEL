@@ -1,0 +1,22 @@
+{
+    "/js/app.js": "/js/app.js?id=bdc7b2cb33ab10aa0151",
+    "/css/vendors.css": "/css/vendors.css?id=e59d82daf12bbf166aa9",
+    "/css/app.css": "/css/app.css?id=d27b0b8d713d41066b05",
+    "/css/pages/chat.css": "/css/pages/chat.css?id=499de089d9bad681164d",
+    "/css/pages/auth.css": "/css/pages/auth.css?id=6e37e5ea019e45f9e902",
+    "/css/pages/profile.css": "/css/pages/profile.css?id=b96b14cd1ed246ab291e",
+    "/css/pages/error.css": "/css/pages/error.css?id=e375b8fadb599789ad58",
+    "/css/core/menu/menu-types/horizontal-menu.css": "/css/core/menu/menu-types/horizontal-menu.css?id=1a07447a4a76a3dc6e3d",
+    "/css/core/menu/menu-types/vertical-compact-menu.css": "/css/core/menu/menu-types/vertical-compact-menu.css?id=459b6fc9617536e5d337",
+    "/css/core/menu/menu-types/vertical-content-menu.css": "/css/core/menu/menu-types/vertical-content-menu.css?id=2c59ce7e97e8dae88f81",
+    "/css/core/menu/menu-types/vertical-overlay-menu.css": "/css/core/menu/menu-types/vertical-overlay-menu.css?id=3323bbbc3fac43163b9d",
+    "/css/core/menu/menu-types/vertical-menu-modern.css": "/css/core/menu/menu-types/vertical-menu-modern.css?id=6fe6a3ddfba00473c530",
+    "/css/core/menu/menu-types/vertical-menu.css": "/css/core/menu/menu-types/vertical-menu.css?id=a1e6a643a456f6f9106c",
+    "/css/core/colors/palette-loader.css": "/css/core/colors/palette-loader.css?id=d50f32be2cc46edf16db",
+    "/css/core/colors/palette-switch.css": "/css/core/colors/palette-switch.css?id=a0a52059054f5fe21914",
+    "/css/core/colors/palette-climacon.css": "/css/core/colors/palette-climacon.css?id=3781a175fe55b532b260",
+    "/css/core/colors/palette-gradient.css": "/css/core/colors/palette-gradient.css?id=194b065ba0148d77521f",
+    "/css/core/colors/palette-callout.css": "/css/core/colors/palette-callout.css?id=2cdb77e47f1995cac43f",
+    "/css/core/colors/palette-tooltip.css": "/css/core/colors/palette-tooltip.css?id=6b6d264ef8f380df587b",
+    "/css/core/colors/palette-noui.css": "/css/core/colors/palette-noui.css?id=bb29de4b7d77630882e9"
+}

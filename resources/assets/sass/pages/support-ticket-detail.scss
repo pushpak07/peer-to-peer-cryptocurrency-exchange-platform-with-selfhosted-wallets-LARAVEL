@@ -1,0 +1,70 @@
+#ticket-detail {
+    .ticket-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .ticket-options-icon {
+        margin-right: 5px;
+    }
+
+    .ticket-customer-details {
+        font-weight: 600;
+        display: inline-block;
+        width: 100px;
+    }
+
+    // Activated Ticket
+    .activated {
+        .card-header {
+            background: #28D094 !important;
+        }
+
+        .card-title {
+            color: white !important;
+        }
+
+        .ticket-status {
+            background: #28D094 !important;
+        }
+
+        .ticket-expired {
+            display: none !important;
+        }
+
+        .ticket-verified {
+            color: white !important;
+        }
+
+        i {
+            margin-right: 5px;
+        }
+    }
+
+
+    .deactivated {
+        .card-header {
+            background: #ff9149 !important;
+        }
+
+        .card-title {
+            color: white !important;
+        }
+
+        .ticket-status {
+            background: #FF4961 !important;
+        }
+
+        .ticket-verified {
+            display: none !important;
+        }
+
+        .ticket-expired {
+            color: white !important;
+        }
+
+        i {
+            margin-right: 5px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff;
+    z-index:10000;
+
+    //#status {
+    //    width:120px;
+    //    height:120px;
+    //    position:absolute;
+    //    left: calc(50% - 60px);
+    //    top: calc(50% - 60px);
+    //    background-image:url(../../../images/icons/loading.gif);
+    //    background-repeat:no-repeat;
+    //    background-position:center;
+    //    background-size: 60px auto;
+    //}
+
+    .spinner {
+        position:absolute;
+        left: calc(50% - 30px);
+        top: calc(50% - 30px);
+    }
+}

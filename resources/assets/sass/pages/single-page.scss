@@ -1,0 +1,305 @@
+@import "../bootstrap/functions";
+@import "../bootstrap/mixins";
+@import "../bootstrap-extended/mixins";
+
+// Core variables and mixins overrides
+@import "../core/variables/variables";
+@import "../core/variables/components-variables";
+
+// Knowledgebase Badge CSS
+.kw-wrapper{
+	.badge{
+		margin-bottom: 5px;
+		margin-right: 1px;
+	}
+}
+
+// FAQ page accordion CSS
+.faq{
+	.accordion{
+		.card{
+			margin: 0 0.25rem;
+			border-bottom: 1px solid $content-bg !important;
+			&:last-child{
+				border:none !important;
+			}
+		}
+		.card-text{		
+			padding: 0.25rem 1.25rem;
+		}
+		.btn{
+			white-space: normal;
+			text-align: left;
+		}	
+	}
+}
+
+
+// Bank-Loan Account
+
+.loan-wrapper{
+	.checked{
+		margin-right: 2px;
+	}
+	&.dataTable{
+		td{
+			border-top: none;
+		}
+	}
+}
+
+
+
+// Bank-Add-Account
+
+.account-wrapper{
+	.form-check{
+		display: inline;		
+	}
+}
+.checked{
+		margin-right: 2px;
+	}
+
+
+// ----------- Bank Card-List ------------
+
+.card-wrapper{
+	.action{
+		i{
+		&.success{
+			margin-right: 0.1rem;
+			}
+		}
+	}
+	&.dataTable{
+		td{
+			border-top: none;
+		}
+	}
+}
+// ----------- Bank Payment ------------
+
+.pending-payment, .completed-payment{
+	&.dataTable{
+			td{
+			border-top: none;
+		}
+	}
+}
+
+
+
+//--------- All Accounts -----------//
+
+
+.table-wrapper{
+ 	.ac-symbol{
+ 		i{
+			font-size: 1.7rem;
+		}
+ 		&.saving{
+	 		i{
+				color: $success;
+	 		}
+	 	}
+	 	&.joint{
+	 		i{
+				color: $warning;
+	 		}
+	 	}
+	 	&.loan{
+	 		i{
+				color: $danger;
+	 		}
+	 	}
+	 	&.current{
+	 		i{
+				color: $info;
+	 		}
+	 	}
+  	}  	
+  	&.dataTable{
+		td{
+			border-top: none;
+		}
+	}
+  }
+
+
+// ------ add-payment ------------
+
+#commentForm{	
+	label{
+	 &.error {
+    	color: $danger;
+	}
+	}
+}
+
+// ----------- Crypto-all-transactions ------------
+
+
+.trans-wrapper{
+	i{
+		&:before{
+			font-size: 1rem;
+			margin-right: 0.5rem;			
+		}
+	}
+}
+
+// ----------- Crypto-Wallet ------------
+
+
+
+.wallet-wrapper{
+	&.dataTable{
+		td{
+			border-top: none;
+		}
+	}
+	.currency{
+		font-weight: bold;
+		i{
+			&.cc{
+				font-size: 1.4rem;
+				margin-right: 0.5rem;
+			}
+		}
+	}
+	.transact{
+		text-transform: uppercase;
+		font-size: 0.8rem;
+		color: $info;
+		font-weight: bold;
+		i{
+			&:before{
+				margin-right: 0.1rem;
+				display: inline;
+				font-size: 1rem;
+				color: $success;
+			}
+		}
+		@media only screen and (max-width: 824px) {
+			i{
+				display: none;
+			}
+		}
+	}
+}
+
+// ----------- Crypto-History ------------
+
+
+.history-wrapper{
+	&.dataTable{
+		td{
+			border-top: none;
+		}
+	}
+	i{
+		&:before{
+			font-size: 1.4rem;
+			margin-right: 0.8rem;
+		}
+	}
+}
+
+// ----------- Currency - Exchange------------
+
+
+.exchange{
+	&.btn{
+		border-radius: 50px;
+		width: 150px;
+	}
+	i{
+		margin-right: 1rem;
+	}
+}
+
+
+// ----------- Support Customers ------------
+
+.customer-wrapper{
+
+	&.dataTable{
+		td{
+			border-top: none;
+		}
+	}
+	i{
+		&:before{
+			margin-right: 0.3rem;
+			font-size: 1rem;
+		}
+	}
+	.option{
+		i{
+			&:before{
+				margin-right: 0.3rem;
+				font-size: 1.4rem;			
+			}
+		}
+	}
+	.email{
+		i{
+			color: $info;
+		}
+	}	
+	.tickets{
+		i{
+			color: $light;
+		}
+	}
+	@media only screen and (max-width: 991px) {
+		.email{
+			i{
+				display: none;
+			}
+		}	
+	}
+}
+
+//  ------------- Wizard Color Change ----------------
+
+.wizard-info 
+	{
+	&.wizard
+		{
+		&.wizard-notification {
+			.steps{
+					ul{
+				 		li{
+				 			&:before, &:after{
+				 				background-color: $info;
+				 			}
+						 	&.current{
+						 		.step{
+		   							border: 2px solid $info;
+		   							color: $info;
+								    line-height: 36px;								    
+								    &:after{
+								    	border-top-color: $info;
+								    }							    
+								}
+							}
+							&.done{
+								.step{
+									background-color: $info;
+									border-color: $info;
+									&:last-child{
+										color: $white;
+									}
+									&:after{
+								    	border-top-color: $info;
+								    }	
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}

@@ -1,0 +1,96 @@
+
+// Core variables and mixins
+@import "../bootstrap/functions";
+@import "../bootstrap/mixins";
+@import "../bootstrap-extended/mixins";
+
+// Load variable overrides
+@import "../core/variables/variables";
+@import "../core/variables/components-variables";
+
+#scoreLineToDay{
+	.ct-series-a{
+		.ct-line{
+			stroke: $info;
+			stroke-width: 5px;
+		}
+	}
+}
+
+#scoreLineToWeek{
+	.ct-series-a{
+		.ct-line{
+			stroke: $cyan;
+			stroke-width: 5px;
+		}
+	}
+}
+
+#scoreLineToMonth{
+	.ct-series-a{
+		.ct-line{
+			stroke: $danger;
+			stroke-width: 5px;
+		}
+	}
+}
+
+.ct-area-circle{
+	fill: $success;
+	stroke-width: 5;
+	stroke: $white;
+}
+
+.scoreLineShadow {
+	-webkit-filter: drop-shadow(0px 20px 6px rgba(0, 0, 0, 0.5));
+	filter: drop-shadow(0px 20px 6px rgba(0, 0, 0, 0.5));
+}
+
+.chart-stats{
+	.percentage{
+		font-size: 3rem;
+		color: rgba(255, 255, 255, 0.15);
+		position: absolute;
+		bottom: 20px;
+		right: 3px;
+	}
+}
+
+// Calendar
+#bank-calendar{
+	.clndr{
+			background-color: transparent;
+		.clndr-grid{
+			width: 100%;
+			.days-of-the-week{
+				background-color: transparent;
+				.header-day{
+					color: #6B6F82;
+				}
+			}
+		}
+		.clndr-controls{
+			background-color: transparent;
+			color: #6B6F82;
+			.clndr-previous-button,
+			.clndr-next-button{
+				font-size: 1.25rem;
+			}
+		}
+		.event-listing{
+			display:none;
+		}
+		.current-month{
+			font-size: 1.25rem;
+		}
+	}
+}
+.table{
+	tr{
+		&:last-child{
+			td{
+				border-bottom: none;
+			}
+		}
+	}
+}

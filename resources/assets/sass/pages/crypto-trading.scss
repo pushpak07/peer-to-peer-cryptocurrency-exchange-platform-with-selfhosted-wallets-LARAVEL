@@ -1,0 +1,103 @@
+@import "../bootstrap/functions";
+@import "../bootstrap/mixins";
+@import "../bootstrap-extended/mixins";
+
+// Core variables and mixins overrides
+@import "../core/variables/variables";
+@import "../core/variables/components-variables";
+
+// ----------- Crypto-Trading ------------
+
+
+.trading-wrapper{
+	&.table{
+		tr{	
+			td{
+			    padding: 0.75rem 0.75rem;
+			}		
+			&:last-child{
+				td{
+					border-bottom: none !important;
+			 	}
+			}
+		}	
+
+	}
+	&.dataTable{
+		td{
+			border-top: none;
+		}
+	}
+	i{
+		&:before{
+			font-size: 1.4rem;
+			margin-right: 0.5rem;
+		}		
+	}
+	@media only screen and (max-width: 767px) {
+			i{
+				display: none;
+			}			
+		}
+	
+	@media only screen and (max-width: 1139px) {
+			i{
+				&:before{
+					font-size: 1.0rem;
+					margin-right: 0.2rem;
+				}
+			}	
+			&.dataTables_wrapper 
+			{
+				.dataTables_filter{
+						display: none;
+				}
+			}			
+		}	
+	tr{
+		&:hover, &.active{
+  			cursor: pointer;
+  			background-color: $info;
+  			color: $white;
+  			i{
+  				color: $white !important;
+  			}
+  		}
+	}
+}
+.open-orders, .yrtrade-wrapper{
+	i{
+		font-size: 1.0rem;
+		margin-right: 0.4rem;
+	}
+	&.table{
+		tr{
+			&:last-child{
+				td{
+					border-bottom: none !important;
+			 	}
+			}
+		}
+	}
+	&.dataTable{
+		td{
+			border-top: none;
+		}
+	}
+}
+
+.dataTables_wrapper 
+	{
+	.dataTables_filter{
+			float: right;
+			margin-right: 1rem;			
+		}	
+	}
+	@media only screen and (max-width: 1139px) {
+		.dataTables_wrapper 
+			{
+				.dataTables_filter{
+						display: none;
+				}
+			}			
+		}
