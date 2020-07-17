@@ -48,7 +48,7 @@
         "laravel-echo": "^1.4.0",
         "laravel-mix": "^2.0",
         "less": "^3.8.1",
-        "lodash": "^4.17.4",
+        "lodash": "^4.17.19",
         "magnific-popup": "^1.1.0",
         "moment": "^2.22.2",
         "offline-js": "^0.7.19",
