@@ -11,7 +11,7 @@
     },
     "dependencies": {
         "animate.css": "^3.7.0",
-        "axios": "^0.18",
+        "axios": "^0.21",
         "babel-preset-stage-2": "^6.24.1",
         "beepbeep": "^1.2.2",
         "bootstrap": "^4.1.3",
