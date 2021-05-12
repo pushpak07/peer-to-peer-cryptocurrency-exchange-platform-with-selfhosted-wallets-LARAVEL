@@ -18,7 +18,7 @@
         "bootstrap-fileselect": "^2.0.0",
         "bootstrap-switch": "^3.3.4",
         "browser-locale": "^1.0.3",
-        "chart.js": "^2.7.2",
+        "chart.js": "^2.9.4",
         "cropperjs": "^1.4.1",
         "cross-env": "^5.1",
         "cryptocoins-icons": "^2.8.0",
