@@ -66,7 +66,7 @@
         "socket.io-client": "^2.1.1",
         "style-loader": "^0.23.1",
         "sweetalert": "^2.1.0",
-        "tinymce": "^4.8.3",
+        "tinymce": "^5.10.7",
         "toastr": "^2.1.4",
         "vue": "^2.5.17",
         "vue-autosize": "^1.0.2",
